@@ -22,7 +22,9 @@ body{
 }
                             /*---------- header -------------*/
 
-.header{background-color:var(--primary-color) ;}
+.header{background-color:var(--primary-color) ;
+ overflow:hidden;
+}
 
                             /*------------ top-header --------------*/
 .top_header{
@@ -606,7 +608,7 @@ body{
 @media screen and (max-width:770px){
         .navBar_area{
            position:absolute;
-           width:95%; 
+           width:93%; 
            top:5rem;
            background-color:rgba(14, 48, 112, 0.445);
            z-index:1;
