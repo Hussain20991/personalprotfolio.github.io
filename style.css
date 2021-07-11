@@ -689,3 +689,12 @@ body{
         }
         
     }
+@media screen and (max-width:550px){
+        .services_flex{
+            padding:0 1rem;
+        
+        }
+        .contact_section .contact_flex{
+            width: 80%;
+        }
+    }
